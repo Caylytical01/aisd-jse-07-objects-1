@@ -57,7 +57,7 @@ console.log(person); // Expected output: person object with properties
 **Explanation:**
 - The variable `person` holds an object containing various properties that describe a person, including their name, age, location, occupation, employment status, and an array of friends. Each property can be accessed using the dot notation or bracket notation, allowing for easy retrieval and modification of values.
 
-## 3. **Accessing Object Values**
+## 3. **Access Object Values**
 Next, you will learn how to access the values of the properties in your `person` object.
 
 - [ ] Update your `index.js` file with the following code to log the `firstName` and `occupation`:
@@ -68,7 +68,7 @@ console.log("First Name:", person.firstName); // Expected output: "First Name: J
 console.log("Occupation:", person.occupation); // Expected output: "Occupation: Software Developer"
 ```
 
-- [ ] Run your JavaScript file to see the output.
+- [ ] Run your JavaScript file in the terminal with the command `node index.js` to see the output.
 
 **Expected Output:**
 ```
@@ -81,7 +81,7 @@ Occupation: Software Developer
 - The second statement does the same for the occupation property, displaying "Occupation:" followed by the value, which is "Software Developer".
 - Accessing properties with dot notation is essential for working with objects in JavaScript.
 
-## 4. **Looping Through the Friends Array**
+## 4. **Loop Through the Friends Array**
 Now, you will loop through the `friends` array within the `person` object and print each friend's name.
 
 - [ ] Add the following code to your `index.js`:
@@ -94,7 +94,7 @@ person.friends.forEach((friend) => {
 });
 ```
 
-- [ ] Run your JavaScript file to see the output.
+- [ ] Run your JavaScript file in the terminal with the command `node index.js` to see the output.
 
 **Expected Output:**
 ```
@@ -109,7 +109,7 @@ Charlie
 - The `person.friends.forEach((friend) => { ... });` line uses the `.forEach()` method to loop through each element in the `friends` array, where friend represents the current element.
 - The `console.log(friend);` statement prints each friend's name, displaying them on new lines.
 
-## 5. **Testing Your Knowledge**
+## 5. **Test Your Knowledge**
 Consider adding more properties to the `person` object, such as hobbies or favorite foods, and practice accessing and printing these new properties.
 
 ## 6. **Commit and Push to GitHub**

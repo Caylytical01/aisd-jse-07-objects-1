@@ -125,7 +125,7 @@ In this project, you learned how to create and work with objects in JavaScript. 
 
 💾 **Not something to copy and paste** 💾
 
-**Note:** This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-jse-07-objects/tree/solution) (link not shown).
+**Note:** This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-jse-07-objects-1/tree/solution) (link not shown).
 
 
 

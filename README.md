@@ -8,7 +8,7 @@ In this project, you will practice working with objects in JavaScript. You will 
 ## Expected Project Structure 🏗️
 Your project will have the following structure:
 ```
-ObjectBasics/
+ObjectsPartOne/
 └── index.js
 ```
 
@@ -17,8 +17,8 @@ ObjectBasics/
 ## 1. **Create the Project Folder and File**
 You will begin by setting up your project structure.
 
-- [ ] Create a folder named `ObjectBasics` to store your project files.
-- [ ] Inside the `ObjectBasics` folder, create a file named `index.js`. This file will contain all your JavaScript code.
+- [ ] Create a folder named `ObjectsPartOne` to store your project files.
+- [ ] Inside the `ObjectsPartOne` folder, create a file named `index.js`. This file will contain all your JavaScript code.
 
 ## 2. **Create a Person Object**
 You will start by creating an object to represent a person.
@@ -55,9 +55,9 @@ console.log(person); // Expected output: person object with properties
 ```
 
 **Explanation:**
-- The variable `person` holds an object containing various properties that describe a person, including their name, age, location, occupation, employment status, and an array of friends.
+- The variable `person` holds an object containing various properties that describe a person, including their name, age, location, occupation, employment status, and an array of friends. Each property can be accessed using the dot notation or bracket notation, allowing for easy retrieval and modification of values.
 
-## 3. **Accessing Object Values**
+## 3. **Access Object Values**
 Next, you will learn how to access the values of the properties in your `person` object.
 
 - [ ] Update your `index.js` file with the following code to log the `firstName` and `occupation`:
@@ -77,9 +77,11 @@ Occupation: Software Developer
 ```
 
 **Explanation:**
-- You can access the properties of an object using dot notation, which allows you to retrieve the values associated with each property.
+- The first console.log statement prints the label "First Name:", followed by the value of person.firstName, which is accessed using dot notation. This returns "John".
+- The second statement does the same for the occupation property, displaying "Occupation:" followed by the value, which is "Software Developer".
+- Accessing properties with dot notation is essential for working with objects in JavaScript.
 
-## 4. **Looping Through the Friends Array**
+## 4. **Loop Through the Friends Array**
 Now, you will loop through the `friends` array within the `person` object and print each friend's name.
 
 - [ ] Add the following code to your `index.js`:
@@ -103,9 +105,11 @@ Charlie
 ```
 
 **Explanation:**
-- The `.forEach()` method is used here to iterate over the `friends` array, allowing you to perform an action (printing each friend's name) for each element in the array.
+- The `console.log("Friends:");` prints the label "Friends:" to indicate that the subsequent output will list friends' names.
+- The `person.friends.forEach((friend) => { ... });` line uses the `.forEach()` method to loop through each element in the `friends` array, where friend represents the current element.
+- The `console.log(friend);` statement prints each friend's name, displaying them on new lines.
 
-## 5. **Testing Your Knowledge**
+## 5. **Test Your Knowledge**
 Consider adding more properties to the `person` object, such as hobbies or favorite foods, and practice accessing and printing these new properties.
 
 ## 6. **Commit and Push to GitHub**
@@ -121,4 +125,9 @@ In this project, you learned how to create and work with objects in JavaScript. 
 
 💾 **Not something to copy and paste** 💾
 
-**Note:** This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-jse-07-objects/tree/solution) (link not shown).
+**Note:** This lab references a solution file located [here](https://github.com/HackerUSA-CE/aisd-jse-07-objects-1/tree/solution) (link not shown).
+
+
+
+
+© All rights reserved to ThriveDX

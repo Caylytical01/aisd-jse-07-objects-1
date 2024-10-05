@@ -68,7 +68,7 @@ console.log("First Name:", person.firstName); // Expected output: "First Name: J
 console.log("Occupation:", person.occupation); // Expected output: "Occupation: Software Developer"
 ```
 
-- [ ] Run your JavaScript file to see the output.
+- [ ] Run your JavaScript file in the terminal with the command `node index.js` to see the output.
 
 **Expected Output:**
 ```
@@ -94,7 +94,7 @@ person.friends.forEach((friend) => {
 });
 ```
 
-- [ ] Run your JavaScript file to see the output.
+- [ ] Run your JavaScript file in the terminal with the command `node index.js` to see the output.
 
 **Expected Output:**
 ```

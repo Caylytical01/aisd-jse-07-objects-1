@@ -3,7 +3,7 @@
 ![Screenshot of the finished webpage](assets/images/complete.png)
 
 ## Description 📄
-In this project, you will practice working with objects in JavaScript. You will create a `person` object with properties like `firstName`, `lastName`, `age`, `location`, `occupation`, `employed`, and an array of `friends`. You will also learn how to access the values of the object and loop through the `friends` array to print each name. This hands-on experience will help you understand the practical applications of objects in managing structured data.
+In this lab, you will practice working with objects in JavaScript. You will create a `person` object with properties like `firstName`, `lastName`, `age`, `location`, `occupation`, `employed`, and an array of `friends`. You will also learn how to access the values of the object and loop through the `friends` array to print each name. This hands-on experience will help you understand the practical applications of objects in managing structured data.
 
 ## Expected Project Structure 🏗️
 Your project will have the following structure:

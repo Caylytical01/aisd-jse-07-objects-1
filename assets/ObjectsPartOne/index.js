@@ -12,3 +12,8 @@ console.log(person); // Expected output: person object with properties
 // Step 2: Accessing object values
 console.log("First Name:", person.firstName); // Expected output: "First Name: John"
 console.log("Occupation:", person.occupation); // Expected output: "Occupation: Software Developer"
+// Step 3: Looping through the friends array
+console.log("Friends:");
+person.friends.forEach((friend) => {
+    console.log(friend); // Expected output: each friend's name
+});

@@ -9,3 +9,6 @@ const person = {
     friends: ["Alice", "Bob", "Charlie"]
 };
 console.log(person); // Expected output: person object with properties
+// Step 2: Accessing object values
+console.log("First Name:", person.firstName); // Expected output: "First Name: John"
+console.log("Occupation:", person.occupation); // Expected output: "Occupation: Software Developer"
